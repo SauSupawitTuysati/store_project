@@ -136,7 +136,18 @@ namespace store_project
         private void btnProductCreate_Click(object sender, EventArgs e)
         {
             frmProductCreate productForm = new frmProductCreate();
-            productForm.Show();
+            //productForm.Show(); //เปิดจอเล่นได้ทั้งคู่
+            productForm.ShowDialog(); //เปิดจอเเล่นได้จอเดียว
+            getAllProductToLV();
+        }
+
+        private void lvAllProduct_ItemActivate(object sender, EventArgs e)
+        {
+            frmProductUpDel frmProductUpDel = new frmProductUpDel(
+                int.Parse(lvAllProduct.SelectedItems[0].SubItems[1].Text)
+             );
+            frmProductUpDel.ShowDialog();
+            getAllProductToLV();
         }
     }
 }
