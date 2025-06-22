@@ -37,7 +37,7 @@
             // 
             // label1
             // 
-            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(29, 9);
             this.label1.Name = "label1";
@@ -68,7 +68,7 @@
             // 
             // btnProductCreate
             // 
-            this.btnProductCreate.BackColor = System.Drawing.Color.DodgerBlue;
+            this.btnProductCreate.BackColor = System.Drawing.Color.LightSteelBlue;
             this.btnProductCreate.Image = global::store_project.Properties.Resources.basket;
             this.btnProductCreate.Location = new System.Drawing.Point(664, 365);
             this.btnProductCreate.Name = "btnProductCreate";

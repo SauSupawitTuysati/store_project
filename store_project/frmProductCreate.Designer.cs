@@ -120,7 +120,7 @@
             // 
             // btnCancel
             // 
-            this.btnCancel.BackColor = System.Drawing.Color.Red;
+            this.btnCancel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.btnCancel.Image = global::store_project.Properties.Resources.cancel;
             this.btnCancel.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnCancel.Location = new System.Drawing.Point(222, 394);
@@ -134,7 +134,7 @@
             // 
             // BtnSave
             // 
-            this.BtnSave.BackColor = System.Drawing.Color.GreenYellow;
+            this.BtnSave.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.BtnSave.Image = global::store_project.Properties.Resources.save;
             this.BtnSave.Location = new System.Drawing.Point(104, 394);
             this.BtnSave.Name = "BtnSave";
@@ -215,11 +215,11 @@
             // 
             // label1
             // 
-            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(32, 8);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(373, 43);
+            this.label1.Size = new System.Drawing.Size(373, 74);
             this.label1.TabIndex = 35;
             this.label1.Text = "เพิ่มสินค้า";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;

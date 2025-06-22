@@ -189,18 +189,18 @@
             // 
             // label1
             // 
-            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(32, 8);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(373, 51);
+            this.label1.Size = new System.Drawing.Size(373, 68);
             this.label1.TabIndex = 19;
             this.label1.Text = "แก้ไข / ลบ สินค้า";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btProDelete
             // 
-            this.btProDelete.BackColor = System.Drawing.Color.Red;
+            this.btProDelete.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.btProDelete.Image = global::store_project.Properties.Resources.delete;
             this.btProDelete.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btProDelete.Location = new System.Drawing.Point(222, 396);
@@ -214,7 +214,7 @@
             // 
             // btProUpdate
             // 
-            this.btProUpdate.BackColor = System.Drawing.Color.GreenYellow;
+            this.btProUpdate.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.btProUpdate.Image = global::store_project.Properties.Resources.update;
             this.btProUpdate.Location = new System.Drawing.Point(104, 396);
             this.btProUpdate.Name = "btProUpdate";
